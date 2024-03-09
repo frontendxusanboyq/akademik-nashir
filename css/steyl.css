@@ -1,0 +1,351 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+* *::before *::after {
+  box-sizing: inherit;
+}
+*:focus {
+  outline: 2px dotted #f87604;
+  outline-offset: 3px;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #0a0a0a;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+}
+.container {
+  max-width: 1140px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 12px 24px;
+  background-color: #ff7500;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: opacity 0.4s ease;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn:active {
+  opacity: 0.6;
+}
+.site-header {
+  padding-top: 16px;
+  padding-right: 16px;
+}
+.site-header {
+  border-top: 5px solid #ff7500;
+}
+.site-header-container {
+  display: flex;
+  align-items: center;
+}
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-right: auto;
+  transition: opacity 0.4s ease;
+}
+.logo-link:hover {
+  opacity: 0.8;
+}
+.logo-link:active {
+  opacity: 0.6;
+}
+.logo-img {
+  width: 38px;
+  height: 60px;
+  object-fit: cover;
+  margin-right: 12px;
+}
+.logo-title {
+  color: #252420;
+  font-family: 'Roboto Condensed';
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.logo-span {
+  color: #ff7500;
+}
+.site-nav {
+  margin-right: 32px;
+}
+.site-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.site-item:not(:last-child) {
+  margin-right: 32px;
+}
+.site-item .active {
+  width: 92px;
+  height: 3px;
+  border-bottom: 3px solid #ff7500;
+  padding-bottom: 4px;
+}
+.site-item-link {
+  text-decoration: none;
+  color: #000;
+  font-size: 13px;
+  font-style: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: color 0.4s ease opacity 0.4s ease;
+}
+.site-item-link:hover {
+  color: #f77606;
+}
+.site-item-link:active {
+  opacity: 0.6;
+}
+.main content {
+  padding-bottom: 16px;
+}
+.hero {
+  background-color: #252420;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: #fff;
+}
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-info {
+  max-width: 387px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+.hr {
+  float: left;
+  width: 80px;
+  height: 3px;
+  background-color: #ff7500;
+  border: none;
+}
+.hero-info-title {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.5;
+  margin-top: 40px;
+  margin-bottom: 24px;
+}
+.hero-info-text {
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+.hero-btn {
+  display: inline-block;
+  text-decoration: none;
+}
+.hero-img {
+  width: 510;
+  height: 510;
+  object-fit: cover;
+}
+.features {
+  margin-bottom: 245px;
+  color: #000;
+}
+.features-hr {
+  width: 80px;
+  height: 3px;
+  background-color: #ff7500;
+  border: none;
+  float: left;
+}
+.features-title {
+  padding-top: 24px;
+  margin-bottom: 72px;
+  font-family: 'Roboto condensed' 'Roboto', 'Arial' sans-serif;
+  color: #000;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0.5px;
+}
+.features-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.features-item {
+  max-width: 314px;
+  width: 100%;
+}
+.features-item:not(:last-child) {
+  margin-right: 66px;
+}
+.features-img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgba(255, 117, 0, 0.2);
+  margin-bottom: 32px;
+}
+.features-list-title {
+  font-family: 'Roboto condensed' 'Roboto', 'Arial', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0.5px;
+  margin-bottom: 12px;
+}
+.features-img {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+}
+.book-acsiya-continer {
+  background-color: #252420;
+  border-radius: 12px;
+  padding: 64px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.book-acsiya-info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  margin-right: 92px;
+  max-width: 440px;
+  width: 100%;
+}
+.book-acsiya-title {
+  font-family: 'Roboto condensed' sans-serif;
+  font-weight: 700;
+  line-height: 48px;
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+.book-asiya-text {
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+.book-acsiya-span {
+  color: #ff7500;
+}
+.book-acsiya-text2 {
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+.book-acsiya-btn {
+  text-decoration: none;
+}
+.book-acsiya-img-wrapper img {
+  width: 440px;
+  height: 440px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.site-footer {
+  background-color: #f8f8f8;
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+.site-footer-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-footer-top-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.site-footer-top-item:not(:last-child) {
+  margin-right: 16px;
+}
+.site-footer-top-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #252420;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.site-footer-top-link svg {
+  width: 24px;
+  height: 24px;
+  transition: all 0.4s ease;
+}
+.site-footer-top-link svg:hover {
+  color: #ff7500;
+}
+.site-footer-top-link svg:active {
+  opacity: 0.6;
+}
+.site-footer-line {
+  margin-top: 40px;
+  margin-bottom: 64px;
+  height: 2px;
+  background-color: rgba(37, 36, 32, 0.5);
+}
+.site-footer-bootm {
+  display: flex;
+  justify-content: space-between;
+}
+.site-footer-bootm-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.site-footer-bootm-item:not(:last-child) {
+  margin-bottom: 16px;
+}
+.site-footer-bootm-link {
+  text-decoration: none;
+  color: #252420;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+  transition: all 0.4s ease;
+}
+.site-footer-bootm-link:hover {
+  color: #ff7500;
+}
+
+.site-footer-bootm-link:active {
+  opacity: 0.6;
+}
